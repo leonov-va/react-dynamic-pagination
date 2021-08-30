@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-dynamic-pagination-example"]=this["webpackJsonpreact-dynamic-pagination-example"]||[]).push([[0],{10:function(e,n,a){"use strict";a.r(n);var t=a(1),c=a.n(t),i=a(3),r=a.n(i),p=(a(8),a(0));var o=function(){return Object(p.jsx)("div",{className:"App",children:"React dynamic pagination example"})};r.a.render(Object(p.jsx)(c.a.StrictMode,{children:Object(p.jsx)(o,{})}),document.getElementById("root"))},8:function(e,n,a){}},[[10,1,2]]]);
-//# sourceMappingURL=main.17a81a2f.chunk.js.map
