@@ -6,13 +6,13 @@ function App() {
   const [photos, setPhotos] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [fetching, setFetching] = useState(true);
-  const [totalCount, setTotalCount] = useState(0);
+  const [totalCount, setTotalCount] = useState(1);
 
   useEffect(() => {
     if (fetching) {
       axios
         .get(
-          `https://jsonplaceholder.typicode.com/photos?_limit=10&_page=${currentPage}`
+          `https://jsonplaceholder.typicode.com/photos?_limit=12&_page=${currentPage}`
         )
         .then((response) => {
           setPhotos([...photos, ...response.data]);
@@ -32,7 +32,6 @@ function App() {
   }, []);
 
   const handleScroll = (e) => {
-    // console.log("totalCount: ", totalCount);
     // bottomLine = e.target.documentElement.scrollHeight - (e.target.documentElement.scrollTop + window.innerHeight) < 100;
     // photo availability check = photos.length < totalCount
 
