@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,QACI,YAAa,CACb,mCACJ","file":"main.3285c5e6.chunk.css","sourcesContent":[".photos {\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n}"]}
