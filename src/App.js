@@ -12,7 +12,7 @@ function App() {
     if (fetching) {
       axios
         .get(
-          `https://jsonplaceholder.typicode.com/photos?_limit=12&_page=${currentPage}`
+          `https://jsonplaceholder.typicode.com/photos?_limit=15&_page=${currentPage}`
         )
         .then((response) => {
           setPhotos([...photos, ...response.data]);
